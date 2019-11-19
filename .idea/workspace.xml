@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80edad86-213c-4d8f-9cfd-8ec3c845d32c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/backend/bower_components/jquery-ui/themes/base/jquery-ui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/backend/bower_components/jquery-ui/themes/base/jquery-ui.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/backend/bower_components/jquery-ui/themes/redmond/jquery-ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/backend/bower_components/jquery-ui/themes/redmond/jquery-ui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/backend/bower_components/jquery-ui/themes/redmond/jquery-ui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/backend/bower_components/jquery-ui/themes/redmond/jquery-ui.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/backend/bower_components/jquery-ui/themes/redmond/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/backend/bower_components/jquery-ui/themes/redmond/theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/backend/bower_components/jquery-ui/themes/ui-darkness/jquery-ui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/backend/bower_components/jquery-ui/themes/ui-darkness/jquery-ui.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/backend/dist/js/adminlte.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/backend/dist/js/adminlte.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/backend/dist/js/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/backend/dist/js/demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/backend/pages/examples/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/backend/pages/examples/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/master.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin" beforeDir="true" afterPath="$PROJECT_DIR$/resources/views/admin" afterDir="true" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/LandClassController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/LandClassController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/landClass/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/landClass/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/landClass/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/landClass/list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/a0bc05f412005b9b6ba465ff914ada6ecf4ec163.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/a0bc05f412005b9b6ba465ff914ada6ecf4ec163.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +111,7 @@
   <component name="ProjectId" id="1SEBOrarxTP2gS1NfvZ4edkwtlH" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="G:/#SelfTag/G8ICT/Soil" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -156,6 +142,7 @@
   </component>
   <component name="SvnConfiguration" cleanupOnStartRun="true">
     <configuration>C:\Users\Hashm\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
   </component>
   <component name="SvnFileUrlMappingImpl">
     <option name="myMappingRoots">
@@ -183,7 +170,11 @@
       <option name="presentableId" value="Default" />
       <updated>1571118845214</updated>
       <workItem from="1571118846483" duration="10138000" />
-      <workItem from="1574054945318" duration="3763000" />
+      <workItem from="1574054945318" duration="7794000" />
+      <workItem from="1574067814906" duration="1200000" />
+      <workItem from="1574069056260" duration="666000" />
+      <workItem from="1574071215569" duration="11470000" />
+      <workItem from="1574127845678" duration="3417000" />
     </task>
     <servers />
   </component>

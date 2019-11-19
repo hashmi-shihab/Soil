@@ -15,6 +15,18 @@ Route::get('/', function () {
     return view('publicView.welcome');
 });
 
+//landClass route
+Route::resource('landClass', 'LandClassController');
+
+
+
+
+
+
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+

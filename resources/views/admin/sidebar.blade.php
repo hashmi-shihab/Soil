@@ -43,32 +43,34 @@
                         </a>
                         <ul class="treeview-menu">
                             <li><a href="{{route('landClass.create')}}"><i class="fa fa-circle-o"></i> Add Land Class</a></li>
-                            <li><a href="{{route('landClass.index')}}"><i class="fa fa-circle-o"></i> List Land Class</a></li>
+                            <li><a href="{{route('landClass.index')}}"><i class="fa fa-circle-o"></i> Land Class List </a></li>
                         </ul>
                     </li>
 
 
                     <li class="treeview">
-                        <a href="#"><i class="fa fa-circle-o"></i> Level One
+                        <a href="#"><i class="fa fa-circle-o"></i> Land Type
                             <span class="pull-right-container">
                   <i class="fa fa-angle-left pull-right"></i>
                 </span>
                         </a>
                         <ul class="treeview-menu">
-                            <li><a href="#"><i class="fa fa-circle-o"></i> Level Two</a></li>
+                            <li><a href="{{route('landType.create')}}"><i class="fa fa-circle-o"></i> Add Land Type</a></li>
+                            <li><a href="{{route('landType.index')}}"><i class="fa fa-circle-o"></i> Land Type List</a></li>
 
                         </ul>
                     </li>
 
 
                     <li class="treeview">
-                        <a href="#"><i class="fa fa-circle-o"></i> Level One
+                        <a href="#"><i class="fa fa-circle-o"></i> Texture
                             <span class="pull-right-container">
                   <i class="fa fa-angle-left pull-right"></i>
                 </span>
                         </a>
                         <ul class="treeview-menu">
-                            <li><a href="#"><i class="fa fa-circle-o"></i> Level Two</a></li>
+                            <li><a href="{{route('texture.create')}}"><i class="fa fa-circle-o"></i> Add Texture</a></li>
+                            <li><a href="{{route('texture.index')}}"><i class="fa fa-circle-o"></i> Texture List</a></li>
 
                         </ul>
                     </li>
@@ -76,13 +78,27 @@
 
 
                     <li class="treeview">
-                        <a href="#"><i class="fa fa-circle-o"></i> Level One
+                        <a href="#"><i class="fa fa-circle-o"></i> Cultivation Type
                             <span class="pull-right-container">
                   <i class="fa fa-angle-left pull-right"></i>
                 </span>
                         </a>
                         <ul class="treeview-menu">
-                            <li><a href="#"><i class="fa fa-circle-o"></i> Level Two</a></li>
+                            <li><a href="{{route('cultivationType.create')}}"><i class="fa fa-circle-o"></i>Add Cultivation Type</a></li>
+                            <li><a href="{{route('cultivationType.index')}}"><i class="fa fa-circle-o"></i>Cultivation Type List</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li class="treeview">
+                        <a href="#"><i class="fa fa-circle-o"></i>  State
+                            <span class="pull-right-container">
+                  <i class="fa fa-angle-left pull-right"></i>
+                </span>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li><a href="{{route('state.create')}}"><i class="fa fa-circle-o"></i>Add State</a></li>
+                            <li><a href="{{route('state.index')}}"><i class="fa fa-circle-o"></i>State List</a></li>
 
                         </ul>
                     </li>

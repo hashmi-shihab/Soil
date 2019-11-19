@@ -8,7 +8,7 @@
                 <!-- general form elements -->
                 <div class="box box-primary">
                     <div class="box-header with-border">
-                        <h3 class="box-title">Cultivation Type Create</h3>
+                        <h3 class="box-title">State Create</h3>
                         @if(count($errors)>0)
                             @foreach($errors->all() as $error)
                                 <div class="alert alert-danger">
@@ -24,17 +24,17 @@
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->
-                    <form role="form" method="Post" action="{{route('cultivationType.store')}}">
+                    <form role="form" method="Post" action="{{route('state.store')}}">
                         @csrf
                         @method('POST')
                         <div class="box-body">
                             <div class="form-group">
-                                <label for="">Cultivation Type Name Bangla</label>
-                                <input type="" class="form-control" name="name_bn"  placeholder="Enter Cultivation Type Name Bangla">
+                                <label for="">State Bangla</label>
+                                <input type="" class="form-control" name="name_bn"  placeholder="Enter State Name Bangla">
                             </div>
                             <div class="form-group">
-                                <label for="">Cultivation Type Name English</label>
-                                <input type="" class="form-control" name="name_en" placeholder="Enter Cultivation Type Name English">
+                                <label for="">State English</label>
+                                <input type="" class="form-control" name="name_en" placeholder="Enter State Name English">
                             </div>
                         </div>
                         <!-- /.box-body -->

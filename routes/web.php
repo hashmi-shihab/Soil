@@ -19,7 +19,17 @@ Route::get('/', function () {
 Route::resource('landClass', 'LandClassController');
 
 
+//landType route
+Route::resource('landType', 'LandTypeController');
 
+//texture route
+Route::resource('texture', 'TextureController');
+
+//cultivation route
+Route::resource('cultivationType', 'CultivationTypeController');
+
+//state route
+Route::resource('state', 'StateController');
 
 
 

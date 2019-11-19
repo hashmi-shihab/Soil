@@ -3,7 +3,7 @@
 
     <div class="box">
         <div class="box-header">
-            <h3 class="box-title">Texture List</h3>
+            <h3 class="box-title">State List</h3>
 
             @if(count($errors)>0)
 
@@ -25,7 +25,7 @@
                     <button type="button" class="close" data-dismiss="alert" aira-hidden="true">
                         &times;
                     </button>
-                    <strong>Texture</strong>
+                    <strong>State</strong>
                     {{session()->get('message')}}
 
                 </div>
@@ -37,8 +37,8 @@
             <table id="example1" class="table table-bordered table-striped table-responsive">
                 <thead>
                 <tr>
-                    <th>Texture Bangla</th>
-                    <th>Texture English</th>
+                    <th>State Bangla</th>
+                    <th>State English</th>
                     <th>Delete</th>
                     <th>Edit</th>
                     <th>Details</th>
@@ -46,29 +46,29 @@
                 </tr>
                 </thead>
                 <tbody>
-                @foreach($textures as $texture)
+                @foreach($states as $state)
                     <tr>
-                        <td>{{$texture->name_bn}}</td>
-                        <td>{{$texture->name_en}}</td>
+                        <td>{{$state->name_bn}}</td>
+                        <td>{{$state->name_en}}</td>
 
                         <td>
 
-                            <form action="{{route('texture.destroy',$texture->id)}}" method="post">
+                            <form action="{{route('state.destroy',$state->id)}}" method="post">
                                 @csrf
                                 @method('DELETE')
                                 <button class="btn btn-primary alert-danger fa fa-trash" onclick="return confirm('Are you sure?')"  type="submit"></button>
                             </form>
                         </td>
 
-                        <td><a class="btn btn-primary alert-success fa fa-pencil" href="{{route('texture.edit',$texture->id)}}"></a></td>
-                        <td><a class="btn btn-primary alert-dark fa fa-info-circle" href="{{route('texture.show',$texture->id)}}"></a></td>
+                        <td><a class="btn btn-primary alert-success fa fa-pencil" href="{{route('state.edit',$state->id)}}"></a></td>
+                        <td><a class="btn btn-primary alert-dark fa fa-info-circle" href="{{route('state.show',$state->id)}}"></a></td>
                     </tr>
                 @endforeach
                 </tbody>
                 <tfoot>
                 <tr>
-                    <th>Texture Bangla</th>
-                    <th>Texture English</th>
+                    <th>State Bangla</th>
+                    <th>State English</th>
                     <th>Delete</th>
                     <th>Edit</th>
                     <th>Details</th>

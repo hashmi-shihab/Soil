@@ -3,7 +3,7 @@
 
     <div class="box">
         <div class="box-header">
-            <h3 class="box-title">Data Table With Full Features</h3>
+            <h3 class="box-title">Land Class List</h3>
 
             @if(count($errors)>0)
 
@@ -34,14 +34,15 @@
         </div>
         <!-- /.box-header -->
         <div class="box-body">
-            <table id="example1" class="table table-bordered table-striped">
+            <table id="example1" class="table table-bordered table-striped table-responsive">
                 <thead>
                 <tr>
                     <th>Land Class Bangla</th>
                     <th>Land Class English</th>
-                    <th>Action</th>
-                    <th>Action</th>
-                    <th>Action</th>
+                    <th>Delete</th>
+                    <th>Edit</th>
+                    <th>Details</th>
+
                 </tr>
                 </thead>
                 <tbody>
@@ -49,15 +50,18 @@
                 <tr>
                     <td>{{$landClass->name_bn}}</td>
                     <td>{{$landClass->name_en}}</td>
-                    <td><form action="{{ route('landClass.destroy',$landClass->id)}}" method="post">
+
+                    <td>
+
+                        <form action="{{ route('landClass.destroy',$landClass->id)}}" method="post">
                             @csrf
                             @method('DELETE')
-                            <button class="btn btn-primary alert-danger"  type="submit">Delete</button>
+                            <button class="btn btn-primary alert-danger fa fa-trash" onclick="return confirm('Are you sure?')"  type="submit"></button>
                         </form>
-
                     </td>
-                    <td><a class="btn btn-primary alert-success" href="{{route('landClass.edit',$landClass->id)}}">Edit</a></td>
-                    <td><a class="btn btn-primary alert-dark" href="{{route('landClass.show',$landClass->id)}}"> Details</a></td>
+
+                    <td><a class="btn btn-primary alert-success fa fa-pencil" href="{{route('landClass.edit',$landClass->id)}}"></a></td>
+                    <td><a class="btn btn-primary alert-dark fa fa-info-circle" href="{{route('landClass.show',$landClass->id)}}"></a></td>
                 </tr>
                     @endforeach
                 </tbody>
@@ -65,15 +69,19 @@
                 <tr>
                     <th>Land Class Bangla</th>
                     <th>Land Class English</th>
-                    <th>Action</th>
-                    <th>Action</th>
-                    <th>Action</th>
+                    <th>Delete</th>
+                    <th>Edit</th>
+                    <th>Details</th>
                 </tr>
                 </tfoot>
             </table>
         </div>
         <!-- /.box-body -->
     </div>
+
+
+
+
 
 
     @endsection

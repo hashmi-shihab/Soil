@@ -14,35 +14,35 @@
 
                     <ul class="list-group list-group-unbordered">
                         <li class="list-group-item">
-                            <b>Land Class Name Bangla</b> <a class="pull-right">{{$landClass->name_bn}}</a>
+                            <b>State Name Bangla</b> <a class="pull-right">{{$state->name_bn}}</a>
                         </li>
                         <li class="list-group-item">
-                            <b>Land Class Name English</b> <a class="pull-right">{{$landClass->name_en}}</a>
+                            <b>State Name English</b> <a class="pull-right">{{$state->name_en}}</a>
                         </li>
 
                     </ul>
 
 
-                <div class="row"></div>
+                    <div class="row"></div>
                     <div class="col-md-2">
-                    <a href="{{route('landClass.edit',$landClass->id)}}" type="submit"  class="btn btn-info">Edit</a>
+                        <a href="{{route('state.edit',$state->id)}}" type="submit"  class="btn btn-info">Edit</a>
                     </div>
                     <div class="col-md-2">
-                    <form action="{{ route('landClass.destroy',$landClass->id)}}" method="post">
-                        @csrf
-                        @method('DELETE')
-                        <button class="btn btn-primary alert-danger" onclick="return confirm('Are you sure?')"  type="submit">Delete</button>
-                    </form>
+                        <form action="{{ route('state.destroy',$state->id)}}" method="post">
+                            @csrf
+                            @method('DELETE')
+                            <button class="btn btn-primary alert-danger" onclick="return confirm('Are you sure?')"  type="submit">Delete</button>
+                        </form>
                     </div>
                 </div>
 
-                </div>
-                <!-- /.box-body -->
             </div>
+            <!-- /.box-body -->
         </div>
+    </div>
 
 
-    @endsection
+@endsection
 
 
 

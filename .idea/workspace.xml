@@ -4,9 +4,28 @@
     <list default="true" id="80edad86-213c-4d8f-9cfd-8ec3c845d32c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/LandClassController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/LandClassController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/soil.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/soil.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/cultivationType/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/cultivationType/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/cultivationType/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/cultivationType/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/cultivationType/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/cultivationType/list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/cultivationType/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/cultivationType/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/landClass/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/landClass/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/landClass/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/landClass/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/landClass/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/landClass/list.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/a0bc05f412005b9b6ba465ff914ada6ecf4ec163.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/a0bc05f412005b9b6ba465ff914ada6ecf4ec163.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/landClass/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/landClass/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/landType/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/landType/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/landType/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/landType/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/landType/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/landType/list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/landType/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/landType/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/texture/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/texture/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/texture/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/texture/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/texture/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/texture/list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/texture/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/texture/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/8cad71ec059f58532204c505d53b570f54ce3ddd.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/8cad71ec059f58532204c505d53b570f54ce3ddd.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +130,7 @@
   <component name="ProjectId" id="1SEBOrarxTP2gS1NfvZ4edkwtlH" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="G:/#SelfTag/G8ICT/Soil" />
+    <property name="last_opened_file_path" value="G:/#SelfTag/R&amp;D/GridGalleryLaravel" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -174,7 +193,7 @@
       <workItem from="1574067814906" duration="1200000" />
       <workItem from="1574069056260" duration="666000" />
       <workItem from="1574071215569" duration="11470000" />
-      <workItem from="1574127845678" duration="3417000" />
+      <workItem from="1574127845678" duration="21550000" />
     </task>
     <servers />
   </component>

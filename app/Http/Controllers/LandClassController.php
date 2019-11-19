@@ -4,10 +4,14 @@ namespace App\Http\Controllers;
 
 use App\LandClass;
 use Illuminate\Http\Request;
+use App\Http\Requests\LandClassValidation;
 
 
 class LandClassController extends Controller
 {
+    public function __construct() {
+        $this->middleware('auth');
+    }
 
 
     public function index()
@@ -25,18 +29,18 @@ class LandClassController extends Controller
     }
 
 
-    public function store(Request $request)
+    public function store(LandClassValidation $request)
     {
         /*dd($request->name_bn);*/
 
 
-        $request->validate([
+        /*$request->validate([
             'name_bn' => 'required',
             'name_en' => 'required',],
         [
             'name_bn.required'=>'Land class name Bangla is required ',
             'name_en.required'=>'Land class name English is required ',
-            ]);
+            ]);*/
 
 
 
@@ -75,7 +79,7 @@ class LandClassController extends Controller
     }
 
 
-    public function update(Request $request,$id)
+    public function update(LandClassValidation $request,$id)
     {
         $landClass = LandClass::find($id);
 

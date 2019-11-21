@@ -37,8 +37,8 @@
             <table id="example1" class="table table-bordered table-striped table-responsive">
                 <thead>
                 <tr>
-                    <th>Texture Bangla</th>
-                    <th>Texture English</th>
+                    <th>Texture Bangla Name</th>
+                    <th>Texture English Name</th>
                     <th>Delete</th>
                     <th>Edit</th>
                     <th>Details</th>
@@ -67,8 +67,8 @@
                 </tbody>
                 <tfoot>
                 <tr>
-                    <th>Texture Bangla</th>
-                    <th>Texture English</th>
+                    <th>Texture Bangla Name</th>
+                    <th>Texture English Name</th>
                     <th>Delete</th>
                     <th>Edit</th>
                     <th>Details</th>

@@ -28,4 +28,13 @@ class LandTypeValidation extends FormRequest
             'name_en' => 'required',
         ];
     }
+
+    public function messages()
+    {
+        return [
+            'name_bn.required'=>'Land Type Name Bangla is required',
+            'name_en.required'=>'Land Type Name English is required',
+
+        ];
+    }
 }

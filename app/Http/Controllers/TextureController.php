@@ -9,6 +9,10 @@ use App\Http\Requests\TextureValidation;
 class TextureController extends Controller
 {
 
+    public function __construct() {
+        $this->middleware('auth');
+    }
+
     public function index()
     {
         $textures = Texture::all();

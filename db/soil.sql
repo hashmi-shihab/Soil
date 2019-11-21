@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 19, 2019 at 01:31 PM
+-- Generation Time: Nov 21, 2019 at 02:00 PM
 -- Server version: 10.4.6-MariaDB
 -- PHP Version: 7.3.9
 
@@ -43,6 +43,78 @@ CREATE TABLE `cultivation_types` (
 INSERT INTO `cultivation_types` (`id`, `name_bn`, `name_en`, `created_at`, `updated_at`) VALUES
 (1, 'hashmi', 'Ghosh', '2019-11-19 03:48:49', '2019-11-19 04:36:21'),
 (3, 'hghg', 'lllllllllll', '2019-11-19 05:32:11', '2019-11-19 05:32:48');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `districts`
+--
+
+CREATE TABLE `districts` (
+  `id` bigint(20) UNSIGNED NOT NULL,
+  `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `districts`
+--
+
+INSERT INTO `districts` (`id`, `name`, `created_at`, `updated_at`) VALUES
+(1, 'Dhaka', NULL, NULL),
+(2, 'Rajshahi', NULL, NULL);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `fertility_classes`
+--
+
+CREATE TABLE `fertility_classes` (
+  `id` bigint(20) UNSIGNED NOT NULL,
+  `land_type_id` bigint(20) UNSIGNED NOT NULL,
+  `land_Class_id` bigint(20) UNSIGNED NOT NULL,
+  `texture_id` bigint(20) UNSIGNED NOT NULL,
+  `cultivation_type_id` bigint(20) UNSIGNED NOT NULL,
+  `district_id` bigint(20) UNSIGNED NOT NULL,
+  `upazila_id` bigint(20) UNSIGNED NOT NULL,
+  `pH` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `stateOfpH_id` bigint(20) UNSIGNED NOT NULL,
+  `organicMatter` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `stateOforganicMatter_id` bigint(20) UNSIGNED NOT NULL,
+  `calcium` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `stateOfcalcium_id` bigint(20) UNSIGNED NOT NULL,
+  `magnesium` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `stateOfmagnesium_id` bigint(20) UNSIGNED NOT NULL,
+  `potassium` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `stateOfpotassium_id` bigint(20) UNSIGNED NOT NULL,
+  `nitrogen` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `stateOfnitrogen_id` bigint(20) UNSIGNED NOT NULL,
+  `phosphorus` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `stateOfphosphorus_id` bigint(20) UNSIGNED NOT NULL,
+  `sulfur` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `stateOfsulfur_id` bigint(20) UNSIGNED NOT NULL,
+  `boron` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `stateOfboron_id` bigint(20) UNSIGNED NOT NULL,
+  `copper` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `stateOfcopper_id` bigint(20) UNSIGNED NOT NULL,
+  `ferrous` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `stateOfferrous_id` bigint(20) UNSIGNED NOT NULL,
+  `manganese` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `stateOfmanganese_id` bigint(20) UNSIGNED NOT NULL,
+  `zinc` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `stateOfzinc_id` bigint(20) UNSIGNED NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `fertility_classes`
+--
+
+INSERT INTO `fertility_classes` (`id`, `land_type_id`, `land_Class_id`, `texture_id`, `cultivation_type_id`, `district_id`, `upazila_id`, `pH`, `stateOfpH_id`, `organicMatter`, `stateOforganicMatter_id`, `calcium`, `stateOfcalcium_id`, `magnesium`, `stateOfmagnesium_id`, `potassium`, `stateOfpotassium_id`, `nitrogen`, `stateOfnitrogen_id`, `phosphorus`, `stateOfphosphorus_id`, `sulfur`, `stateOfsulfur_id`, `boron`, `stateOfboron_id`, `copper`, `stateOfcopper_id`, `ferrous`, `stateOfferrous_id`, `manganese`, `stateOfmanganese_id`, `zinc`, `stateOfzinc_id`, `created_at`, `updated_at`) VALUES
+(2, 3, 3, 3, 1, 1, 1, '1', 3, '2', 3, '3', 3, '4', 3, '5', 3, '6', 3, '7', 3, '8', 3, '9', 3, '10', 3, '11', 3, '12', 3, '13', 3, '2019-11-21 01:43:12', '2019-11-21 01:43:12');
 
 -- --------------------------------------------------------
 
@@ -109,7 +181,11 @@ INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 (4, '2019_11_19_061941_create_land_types_table', 3),
 (5, '2019_11_19_070204_create_textures_table', 4),
 (6, '2019_11_19_072047_create_cultivations_table', 5),
-(7, '2019_11_19_114929_create_states_table', 6);
+(7, '2019_11_19_114929_create_states_table', 6),
+(8, '2019_11_20_085047_create_fertilities_table', 7),
+(9, '2019_11_20_120222_create_districts_table', 8),
+(10, '2019_11_20_120255_create_upazilas_table', 9),
+(11, '2019_11_20_085047_create_fertility_classes_table', 10);
 
 -- --------------------------------------------------------
 
@@ -168,6 +244,27 @@ INSERT INTO `textures` (`id`, `name_bn`, `name_en`, `created_at`, `updated_at`) 
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `upazilas`
+--
+
+CREATE TABLE `upazilas` (
+  `id` bigint(20) UNSIGNED NOT NULL,
+  `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `upazilas`
+--
+
+INSERT INTO `upazilas` (`id`, `name`, `created_at`, `updated_at`) VALUES
+(1, 'Vatara', NULL, NULL),
+(2, 'Rajshahi Sadar', NULL, NULL);
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `users`
 --
 
@@ -198,6 +295,37 @@ INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `re
 --
 ALTER TABLE `cultivation_types`
   ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `districts`
+--
+ALTER TABLE `districts`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `fertility_classes`
+--
+ALTER TABLE `fertility_classes`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `fertility_classes_land_type_id_foreign` (`land_type_id`),
+  ADD KEY `fertility_classes_land_class_id_foreign` (`land_Class_id`),
+  ADD KEY `fertility_classes_texture_id_foreign` (`texture_id`),
+  ADD KEY `fertility_classes_cultivation_type_id_foreign` (`cultivation_type_id`),
+  ADD KEY `fertility_classes_district_id_foreign` (`district_id`),
+  ADD KEY `fertility_classes_upazila_id_foreign` (`upazila_id`),
+  ADD KEY `fertility_classes_stateofph_id_foreign` (`stateOfpH_id`),
+  ADD KEY `fertility_classes_stateoforganicmatter_id_foreign` (`stateOforganicMatter_id`),
+  ADD KEY `fertility_classes_stateofcalcium_id_foreign` (`stateOfcalcium_id`),
+  ADD KEY `fertility_classes_stateofmagnesium_id_foreign` (`stateOfmagnesium_id`),
+  ADD KEY `fertility_classes_stateofpotassium_id_foreign` (`stateOfpotassium_id`),
+  ADD KEY `fertility_classes_stateofnitrogen_id_foreign` (`stateOfnitrogen_id`),
+  ADD KEY `fertility_classes_stateofphosphorus_id_foreign` (`stateOfphosphorus_id`),
+  ADD KEY `fertility_classes_stateofsulfur_id_foreign` (`stateOfsulfur_id`),
+  ADD KEY `fertility_classes_stateofboron_id_foreign` (`stateOfboron_id`),
+  ADD KEY `fertility_classes_stateofcopper_id_foreign` (`stateOfcopper_id`),
+  ADD KEY `fertility_classes_stateofferrous_id_foreign` (`stateOfferrous_id`),
+  ADD KEY `fertility_classes_stateofmanganese_id_foreign` (`stateOfmanganese_id`),
+  ADD KEY `fertility_classes_stateofzinc_id_foreign` (`stateOfzinc_id`);
 
 --
 -- Indexes for table `land_classes`
@@ -236,6 +364,12 @@ ALTER TABLE `textures`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `upazilas`
+--
+ALTER TABLE `upazilas`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `users`
 --
 ALTER TABLE `users`
@@ -253,6 +387,18 @@ ALTER TABLE `cultivation_types`
   MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
+-- AUTO_INCREMENT for table `districts`
+--
+ALTER TABLE `districts`
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT for table `fertility_classes`
+--
+ALTER TABLE `fertility_classes`
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
 -- AUTO_INCREMENT for table `land_classes`
 --
 ALTER TABLE `land_classes`
@@ -268,7 +414,7 @@ ALTER TABLE `land_types`
 -- AUTO_INCREMENT for table `migrations`
 --
 ALTER TABLE `migrations`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT for table `states`
@@ -283,10 +429,44 @@ ALTER TABLE `textures`
   MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
+-- AUTO_INCREMENT for table `upazilas`
+--
+ALTER TABLE `upazilas`
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
   MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- Constraints for dumped tables
+--
+
+--
+-- Constraints for table `fertility_classes`
+--
+ALTER TABLE `fertility_classes`
+  ADD CONSTRAINT `fertility_classes_cultivation_type_id_foreign` FOREIGN KEY (`cultivation_type_id`) REFERENCES `cultivation_types` (`id`),
+  ADD CONSTRAINT `fertility_classes_district_id_foreign` FOREIGN KEY (`district_id`) REFERENCES `districts` (`id`),
+  ADD CONSTRAINT `fertility_classes_land_class_id_foreign` FOREIGN KEY (`land_Class_id`) REFERENCES `land_classes` (`id`),
+  ADD CONSTRAINT `fertility_classes_land_type_id_foreign` FOREIGN KEY (`land_type_id`) REFERENCES `land_types` (`id`),
+  ADD CONSTRAINT `fertility_classes_stateofboron_id_foreign` FOREIGN KEY (`stateOfboron_id`) REFERENCES `states` (`id`),
+  ADD CONSTRAINT `fertility_classes_stateofcalcium_id_foreign` FOREIGN KEY (`stateOfcalcium_id`) REFERENCES `states` (`id`),
+  ADD CONSTRAINT `fertility_classes_stateofcopper_id_foreign` FOREIGN KEY (`stateOfcopper_id`) REFERENCES `states` (`id`),
+  ADD CONSTRAINT `fertility_classes_stateofferrous_id_foreign` FOREIGN KEY (`stateOfferrous_id`) REFERENCES `states` (`id`),
+  ADD CONSTRAINT `fertility_classes_stateofmagnesium_id_foreign` FOREIGN KEY (`stateOfmagnesium_id`) REFERENCES `states` (`id`),
+  ADD CONSTRAINT `fertility_classes_stateofmanganese_id_foreign` FOREIGN KEY (`stateOfmanganese_id`) REFERENCES `states` (`id`),
+  ADD CONSTRAINT `fertility_classes_stateofnitrogen_id_foreign` FOREIGN KEY (`stateOfnitrogen_id`) REFERENCES `states` (`id`),
+  ADD CONSTRAINT `fertility_classes_stateoforganicmatter_id_foreign` FOREIGN KEY (`stateOforganicMatter_id`) REFERENCES `states` (`id`),
+  ADD CONSTRAINT `fertility_classes_stateofph_id_foreign` FOREIGN KEY (`stateOfpH_id`) REFERENCES `states` (`id`),
+  ADD CONSTRAINT `fertility_classes_stateofphosphorus_id_foreign` FOREIGN KEY (`stateOfphosphorus_id`) REFERENCES `states` (`id`),
+  ADD CONSTRAINT `fertility_classes_stateofpotassium_id_foreign` FOREIGN KEY (`stateOfpotassium_id`) REFERENCES `states` (`id`),
+  ADD CONSTRAINT `fertility_classes_stateofsulfur_id_foreign` FOREIGN KEY (`stateOfsulfur_id`) REFERENCES `states` (`id`),
+  ADD CONSTRAINT `fertility_classes_stateofzinc_id_foreign` FOREIGN KEY (`stateOfzinc_id`) REFERENCES `states` (`id`),
+  ADD CONSTRAINT `fertility_classes_texture_id_foreign` FOREIGN KEY (`texture_id`) REFERENCES `textures` (`id`),
+  ADD CONSTRAINT `fertility_classes_upazila_id_foreign` FOREIGN KEY (`upazila_id`) REFERENCES `upazilas` (`id`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

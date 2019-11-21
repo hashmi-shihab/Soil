@@ -9,6 +9,10 @@ use App\Http\Requests\CultivationTypeValidation;
 class CultivationTypeController extends Controller
 {
 
+    public function __construct() {
+        $this->middleware('auth');
+    }
+
     public function index()
     {
         $cultivationTypes = CultivationType::all();

@@ -28,4 +28,13 @@ class CultivationTypeValidation extends FormRequest
             'name_en' => 'required',
         ];
     }
+
+    public function messages()
+    {
+        return [
+            'name_bn.required'=>'Cultivation Type Bangla Name is required',
+            'name_en.required'=>'Cultivation Type English Name is required',
+
+        ];
+    }
 }

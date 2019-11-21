@@ -67,7 +67,7 @@
                 </tbody>
                 <tfoot>
                 <tr>
-                    <th>Land Type Name Bangla</th>
+                    <th>Land Type Name Bangla </th>
                     <th>Land Type Name English</th>
                     <th>Delete</th>
                     <th>Edit</th>

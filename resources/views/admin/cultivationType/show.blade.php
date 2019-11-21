@@ -14,10 +14,10 @@
 
                     <ul class="list-group list-group-unbordered">
                         <li class="list-group-item">
-                            <b>Cultivation Type Name Bangla</b> <a class="pull-right">{{$cultivationType->name_bn}}</a>
+                            <b>Cultivation Type Bangla Name</b> <a class="pull-right">{{$cultivationType->name_bn}}</a>
                         </li>
                         <li class="list-group-item">
-                            <b>Cultivation Type Name English</b> <a class="pull-right">{{$cultivationType->name_en}}</a>
+                            <b>Cultivation Type English Name</b> <a class="pull-right">{{$cultivationType->name_en}}</a>
                         </li>
 
                     </ul>

@@ -28,12 +28,12 @@
                         @method('PUT')
                         <div class="box-body">
                             <div class="form-group">
-                                <label for="">State Name Bangla</label>
-                                <input type="" class="form-control" name="name_bn"  placeholder="Enter Cultivation Class Name Bangla" value="{{$state->name_bn}}">
+                                <label for="">State Bangla Name</label>
+                                <input type="" class="form-control" name="name_bn"  placeholder="Enter State Bangla Name" value="{{$state->name_bn}}">
                             </div>
                             <div class="form-group">
-                                <label for="">State Name English</label>
-                                <input type="" class="form-control" name="name_en" placeholder="Enter Cultivation Class Name English" value="{{$state->name_en}}">
+                                <label for="">State English Name</label>
+                                <input type="" class="form-control" name="name_en" placeholder="Enter State English Name" value="{{$state->name_en}}">
                             </div>
                         </div>
                         <!-- /.box-body -->

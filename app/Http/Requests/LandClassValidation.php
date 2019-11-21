@@ -25,10 +25,20 @@ class LandClassValidation extends FormRequest
     {
         return [
             'name_bn' => 'required',
-            'name_en' => 'required',/*],
-        [
-            'name_bn.required'=>'Land class name Bangla is required ',
-            'name_en.required'=>'Land class name English is required ',*/
+            'name_en' => 'required',
+
+        ];
+
+
+    }
+
+    public function messages()
+    {
+        return [
+            'name_bn.required'=>'Land Class Name Bangla is required',
+            'name_en.required'=>'Land Class Name English is required',
+
         ];
     }
+
 }

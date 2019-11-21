@@ -37,8 +37,8 @@
             <table id="example1" class="table table-bordered table-striped table-responsive">
                 <thead>
                 <tr>
-                    <th>Cultivation Type Bangla</th>
-                    <th>Cultivation Type English</th>
+                    <th>Cultivation Type Bangla Name</th>
+                    <th>Cultivation Type English Name</th>
                     <th>Delete</th>
                     <th>Edit</th>
                     <th>Details</th>
@@ -67,8 +67,8 @@
                 </tbody>
                 <tfoot>
                 <tr>
-                    <th>Land Class Bangla</th>
-                    <th>Land Class English</th>
+                    <th>Cultivation Type Bangla Name</th>
+                    <th>Cultivation Type English Name</th>
                     <th>Delete</th>
                     <th>Edit</th>
                     <th>Details</th>

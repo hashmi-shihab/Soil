@@ -104,6 +104,22 @@
                     </li>
 
                 </ul>
+
+                <li class="treeview">
+                    <a href="#"><i class="fa fa-circle-o"></i> Fertility Class
+                        <span class="pull-right-container">
+                      <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li><a href="{{route('fertilityClass.create')}}"><i class="fa fa-circle-o"></i> Add Fertility Class</a></li>
+                        <li><a href="{{route('fertilityClass.index')}}"><i class="fa fa-circle-o"></i> Fertility Class List </a></li>
+                    </ul>
+                </li>
+
+
+
+
             </li>
 
         </ul>

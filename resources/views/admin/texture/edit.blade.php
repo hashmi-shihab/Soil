@@ -7,7 +7,7 @@
                 <!-- general form elements -->
                 <div class="box box-primary">
                     <div class="box-header with-border">
-                        <h3 class="box-title">Cultivation Type Edit</h3>
+                        <h3 class="box-title">Texture Edit</h3>
                         @if(count($errors)>0)
                             @foreach($errors->all() as $error)
                                 <div class="alert alert-danger">
@@ -28,12 +28,12 @@
                         @method('PUT')
                         <div class="box-body">
                             <div class="form-group">
-                                <label for="">Texture Name Bangla</label>
-                                <input type="" class="form-control" name="name_bn"  placeholder="Enter Cultivation Class Name Bangla" value="{{$texture->name_bn}}">
+                                <label for="">Texture Bangla Name</label>
+                                <input type="" class="form-control" name="name_bn"  placeholder="Enter Texture Bangla Name" value="{{$texture->name_bn}}">
                             </div>
                             <div class="form-group">
-                                <label for="">Texture Name English</label>
-                                <input type="" class="form-control" name="name_en" placeholder="Enter Cultivation Class Name English" value="{{$texture->name_en}}">
+                                <label for="">Texture English Name</label>
+                                <input type="" class="form-control" name="name_en" placeholder="Enter Texture English Name" value="{{$texture->name_en}}">
                             </div>
                         </div>
                         <!-- /.box-body -->

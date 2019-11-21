@@ -9,6 +9,10 @@ use App\Http\Requests\LandTypeValidation;
 class LandTypeController extends Controller
 {
 
+    public function __construct() {
+        $this->middleware('auth');
+    }
+
     public function index()
     {
         $landTypes = LandType::all();

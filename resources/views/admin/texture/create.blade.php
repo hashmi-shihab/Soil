@@ -29,12 +29,12 @@
                         @method('POST')
                         <div class="box-body">
                             <div class="form-group">
-                                <label for="">Texture Name Bangla</label>
-                                <input type="" class="form-control" name="name_bn"  placeholder="Enter Texture Name Bangla">
+                                <label for="">Texture Bangla Name</label>
+                                <input type="" class="form-control" name="name_bn"  placeholder="Enter Texture  Bangla Name">
                             </div>
                             <div class="form-group">
-                                <label for="">Texture Name English</label>
-                                <input type="" class="form-control" name="name_en" placeholder="Enter Texture Name English">
+                                <label for="">Texture English Name</label>
+                                <input type="" class="form-control" name="name_en" placeholder="Enter Texture  English Name">
                             </div>
                         </div>
                         <!-- /.box-body -->

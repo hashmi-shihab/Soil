@@ -29,11 +29,11 @@
                         <div class="box-body">
                             <div class="form-group">
                                 <label for="">Land Type Name Bangla</label>
-                                <input type="" class="form-control" name="name_bn"  placeholder="Enter Land Class Name Bangla" value="{{$landType->name_bn}}">
+                                <input type="" class="form-control" name="name_bn"  placeholder="Enter Land Type Name Bangla" value="{{$landType->name_bn}}">
                             </div>
                             <div class="form-group">
                                 <label for="">Land Type Name English</label>
-                                <input type="" class="form-control" name="name_en" placeholder="Enter Land Class Name English" value="{{$landType->name_en}}">
+                                <input type="" class="form-control" name="name_en" placeholder="Enter Land Type Name English" value="{{$landType->name_en}}">
                             </div>
                         </div>
                         <!-- /.box-body -->

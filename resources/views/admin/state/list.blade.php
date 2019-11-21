@@ -37,8 +37,8 @@
             <table id="example1" class="table table-bordered table-striped table-responsive">
                 <thead>
                 <tr>
-                    <th>State Bangla</th>
-                    <th>State English</th>
+                    <th>State Bangla Name</th>
+                    <th>State English Name</th>
                     <th>Delete</th>
                     <th>Edit</th>
                     <th>Details</th>
@@ -67,8 +67,8 @@
                 </tbody>
                 <tfoot>
                 <tr>
-                    <th>State Bangla</th>
-                    <th>State English</th>
+                    <th>State Bangla Name</th>
+                    <th>State English Name</th>
                     <th>Delete</th>
                     <th>Edit</th>
                     <th>Details</th>

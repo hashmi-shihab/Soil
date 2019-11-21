@@ -29,12 +29,12 @@
                         @method('POST')
                         <div class="box-body">
                             <div class="form-group">
-                                <label for="">Cultivation Type Name Bangla</label>
-                                <input type="" class="form-control" name="name_bn"  placeholder="Enter Cultivation Type Name Bangla">
+                                <label for="">Cultivation Type Bangla Name</label>
+                                <input type="" class="form-control" name="name_bn"  placeholder="Enter Cultivation Type Bangla Name">
                             </div>
                             <div class="form-group">
-                                <label for="">Cultivation Type Name English</label>
-                                <input type="" class="form-control" name="name_en" placeholder="Enter Cultivation Type Name English">
+                                <label for="">Cultivation Type English Name</label>
+                                <input type="" class="form-control" name="name_en" placeholder="Enter Cultivation Type English Name">
                             </div>
                         </div>
                         <!-- /.box-body -->

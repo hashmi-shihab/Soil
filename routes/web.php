@@ -31,8 +31,8 @@ Route::resource('cultivationType', 'CultivationTypeController');
 //state route
 Route::resource('state', 'StateController');
 
-//fertility route
-Route::resource('fertilityClass', 'FertilityClassController');
+//soilNutrition route
+Route::resource('soilNutrition', 'SoilNutritionController');
 
 
 

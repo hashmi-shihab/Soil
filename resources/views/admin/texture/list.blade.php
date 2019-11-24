@@ -2,7 +2,7 @@
 @section('content')
 
     <div class="box">
-        <div class="box-header">
+        <div class="box-header" style="text-align: center">
             <h3 class="box-title">Texture List</h3>
 
             @if(count($errors)>0)

@@ -7,7 +7,7 @@
             <div class="col-md-6">
                 <!-- general form elements -->
                 <div class="box box-primary">
-                    <div class="box-header with-border">
+                    <div class="box-header with-border" style="text-align: center">
                         <h3 class="box-title">State Create</h3>
                         @if(count($errors)>0)
                             @foreach($errors->all() as $error)

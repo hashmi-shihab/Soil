@@ -12,11 +12,15 @@
       <change beforePath="$PROJECT_DIR$/app/Http/Requests/LandTypeValidation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/LandTypeValidation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Requests/StateValidation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/StateValidation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Requests/TextureValidation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/TextureValidation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/soil.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/soil.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/cultivationType/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/cultivationType/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/cultivationType/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/cultivationType/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/cultivationType/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/cultivationType/list.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/cultivationType/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/cultivationType/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/landClass/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/landClass/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/landClass/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/landClass/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/landClass/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/landClass/list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/landType/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/landType/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/landType/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/landType/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/landType/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/landType/list.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/sidebar.blade.php" afterDir="false" />
@@ -134,7 +138,7 @@
   <component name="ProjectId" id="1SEBOrarxTP2gS1NfvZ4edkwtlH" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin/fertility" />
+    <property name="last_opened_file_path" value="G:/#SelfTag/G8ICT/Soil" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -203,7 +207,8 @@
       <workItem from="1574127845678" duration="22231000" />
       <workItem from="1574231547870" duration="18948000" />
       <workItem from="1574272346792" duration="1235000" />
-      <workItem from="1574318086828" duration="13584000" />
+      <workItem from="1574318086828" duration="27800000" />
+      <workItem from="1574574367030" duration="8347000" />
     </task>
     <servers />
   </component>

@@ -209,6 +209,7 @@ class SoilNutritionController extends Controller
         OldSoilNutrition::create([
 
             'land_type_id' =>$oldSoilNutrition->land_type_id,
+            'soil_nutrition_id' =>$oldSoilNutrition->id,
             'land_Class_id' =>$oldSoilNutrition->land_Class_id,
             'texture_id' =>$oldSoilNutrition->texture_id,
             'cultivation_type_id' =>$oldSoilNutrition->cultivation_type_id,

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 24, 2019 at 11:52 AM
+-- Generation Time: Nov 25, 2019 at 06:34 AM
 -- Server version: 10.4.6-MariaDB
 -- PHP Version: 7.3.9
 
@@ -147,6 +147,7 @@ INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 
 CREATE TABLE `old_soil_nutrition` (
   `id` bigint(20) UNSIGNED NOT NULL,
+  `soil_nutrition_id` bigint(20) NOT NULL,
   `land_type_id` bigint(20) UNSIGNED NOT NULL,
   `land_Class_id` bigint(20) UNSIGNED NOT NULL,
   `texture_id` bigint(20) UNSIGNED NOT NULL,
@@ -187,8 +188,8 @@ CREATE TABLE `old_soil_nutrition` (
 -- Dumping data for table `old_soil_nutrition`
 --
 
-INSERT INTO `old_soil_nutrition` (`id`, `land_type_id`, `land_Class_id`, `texture_id`, `cultivation_type_id`, `district_id`, `upazila_id`, `pH`, `stateOfpH_id`, `organicMatter`, `stateOforganicMatter_id`, `calcium`, `stateOfcalcium_id`, `magnesium`, `stateOfmagnesium_id`, `potassium`, `stateOfpotassium_id`, `nitrogen`, `stateOfnitrogen_id`, `phosphorus`, `stateOfphosphorus_id`, `sulfur`, `stateOfsulfur_id`, `boron`, `stateOfboron_id`, `copper`, `stateOfcopper_id`, `ferrous`, `stateOfferrous_id`, `manganese`, `stateOfmanganese_id`, `zinc`, `stateOfzinc_id`, `created_at`, `updated_at`) VALUES
-(1, 3, 3, 3, 3, 1, 1, '1', 3, '2', 3, '3', 3, '4', 3, '5', 3, '6', 3, '7', 3, '8', 3, '9', 3, '10', 3, '11', 3, '12', 3, '13', 3, '2019-11-24 04:28:22', '2019-11-24 04:28:22');
+INSERT INTO `old_soil_nutrition` (`id`, `soil_nutrition_id`, `land_type_id`, `land_Class_id`, `texture_id`, `cultivation_type_id`, `district_id`, `upazila_id`, `pH`, `stateOfpH_id`, `organicMatter`, `stateOforganicMatter_id`, `calcium`, `stateOfcalcium_id`, `magnesium`, `stateOfmagnesium_id`, `potassium`, `stateOfpotassium_id`, `nitrogen`, `stateOfnitrogen_id`, `phosphorus`, `stateOfphosphorus_id`, `sulfur`, `stateOfsulfur_id`, `boron`, `stateOfboron_id`, `copper`, `stateOfcopper_id`, `ferrous`, `stateOfferrous_id`, `manganese`, `stateOfmanganese_id`, `zinc`, `stateOfzinc_id`, `created_at`, `updated_at`) VALUES
+(2, 2, 3, 3, 3, 1, 1, 1, '1', 3, '2', 3, '3', 3, '4', 3, '5', 3, '6', 3, '7', 3, '8', 3, '9', 3, '10', 3, '11', 3, '12', 3, '13', 3, '2019-11-24 23:31:19', '2019-11-24 23:31:19');
 
 -- --------------------------------------------------------
 
@@ -245,6 +246,13 @@ CREATE TABLE `soil_nutrition` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `soil_nutrition`
+--
+
+INSERT INTO `soil_nutrition` (`id`, `land_type_id`, `land_Class_id`, `texture_id`, `cultivation_type_id`, `district_id`, `upazila_id`, `pH`, `stateOfpH_id`, `organicMatter`, `stateOforganicMatter_id`, `calcium`, `stateOfcalcium_id`, `magnesium`, `stateOfmagnesium_id`, `potassium`, `stateOfpotassium_id`, `nitrogen`, `stateOfnitrogen_id`, `phosphorus`, `stateOfphosphorus_id`, `sulfur`, `stateOfsulfur_id`, `boron`, `stateOfboron_id`, `copper`, `stateOfcopper_id`, `ferrous`, `stateOfferrous_id`, `manganese`, `stateOfmanganese_id`, `zinc`, `stateOfzinc_id`, `created_at`, `updated_at`) VALUES
+(2, 3, 3, 3, 1, 1, 1, '2', 3, '2', 3, '3', 3, '4', 3, '5', 3, '6', 3, '7', 3, '8', 3, '9', 3, '10', 3, '11', 3, '12', 3, '13', 3, '2019-11-24 23:30:53', '2019-11-24 23:31:19');
 
 -- --------------------------------------------------------
 
@@ -486,13 +494,13 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT for table `old_soil_nutrition`
 --
 ALTER TABLE `old_soil_nutrition`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `soil_nutrition`
 --
 ALTER TABLE `soil_nutrition`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `states`

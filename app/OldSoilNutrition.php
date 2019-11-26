@@ -9,6 +9,7 @@ class OldSoilNutrition extends Model
     protected $fillable=
         [
             'land_type_id',
+            'soil_nutrition_id',
             'land_Class_id',
             'texture_id',
             'cultivation_type_id',

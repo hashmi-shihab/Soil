@@ -3,37 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="80edad86-213c-4d8f-9cfd-8ec3c845d32c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CultivationTypeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CultivationTypeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/LandTypeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/LandTypeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StateController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StateController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TextureController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TextureController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/CultivationTypeValidation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/CultivationTypeValidation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/LandClassValidation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/LandClassValidation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/LandTypeValidation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/LandTypeValidation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StateValidation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/StateValidation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/TextureValidation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/TextureValidation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/soil.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/soil.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/cultivationType/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/cultivationType/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/cultivationType/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/cultivationType/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/cultivationType/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/cultivationType/list.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/cultivationType/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/cultivationType/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/landClass/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/landClass/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/landClass/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/landClass/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/landClass/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/landClass/list.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/landType/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/landType/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/landType/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/landType/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/landType/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/landType/list.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/state/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/state/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/state/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/state/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/state/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/state/list.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/texture/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/texture/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/texture/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/texture/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/texture/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/texture/list.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/8cad71ec059f58532204c505d53b570f54ce3ddd.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/8cad71ec059f58532204c505d53b570f54ce3ddd.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SoilNutritionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SoilNutritionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/OldSoilNutrition.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/OldSoilNutrition.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_24_100456_create_old_soil_nutrition_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_11_24_100456_create_old_soil_nutrition_table.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -209,6 +181,7 @@
       <workItem from="1574272346792" duration="1235000" />
       <workItem from="1574318086828" duration="27800000" />
       <workItem from="1574574367030" duration="8347000" />
+      <workItem from="1574659420082" duration="615000" />
     </task>
     <servers />
   </component>

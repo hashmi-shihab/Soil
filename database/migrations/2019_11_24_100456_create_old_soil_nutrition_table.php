@@ -11,6 +11,11 @@ class CreateOldSoilNutritionTable extends Migration
     {
         Schema::create('old_soil_nutrition', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->unsignedBigInteger('soil_nutrition_id');
+            $table->foreign('soil_nutrition_id')->references('id')->on('soil_nutrition');
+
+
+
             $table->unsignedBigInteger('land_type_id');
             $table->foreign('land_type_id')->references('id')->on('land_types');
             $table->unsignedBigInteger('land_Class_id');

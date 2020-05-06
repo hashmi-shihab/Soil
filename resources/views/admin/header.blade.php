@@ -2,9 +2,9 @@
     <!-- Logo -->
     <a href="#" class="logo">
 
-        <span class="logo-mini">Soil</span>
+        <span class="logo-mini">LaravelUserRole</span>
 
-        <span class="logo-lg">Soil</span>
+        <span class="logo-lg">LaravelUserRole</span>
     </a>
 
     <nav class="navbar navbar-static-top">

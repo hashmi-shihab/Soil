@@ -292,7 +292,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/xampp/htdocs/G8Appoinment" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -354,6 +354,7 @@
       <workItem from="1574659420082" duration="615000" />
       <workItem from="1588360866880" duration="29000" />
       <workItem from="1588362114030" duration="1222000" />
+      <workItem from="1588833405978" duration="298000" />
     </task>
     <servers />
   </component>
